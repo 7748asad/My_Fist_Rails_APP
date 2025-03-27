@@ -14,4 +14,5 @@ Rails.application.routes.draw do
  # root "/"
  root "application#hello"
  get "application" => "application#index"
+ get "about", to: "pages#about"
 end
